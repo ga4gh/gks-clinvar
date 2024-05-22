@@ -2,12 +2,8 @@
   "clinvarDeletion": {
     "accessionSet": [
       {
-        "accession": "SCV000123456",
-        "reason": "Dummy SCV to test API"
-      },
-      {
-        "accession": "SCV000654321",
-        "reason": "Dummy SCV to test API"
+        "accession": "SCV005041374",
+        "reason": "Delete civic.eid:2997 as a test"
       }
     ]
   }

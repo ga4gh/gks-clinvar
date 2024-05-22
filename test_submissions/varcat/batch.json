@@ -1,0 +1,173 @@
+{
+  "oncogenicitySubmission": [
+    {
+      "recordStatus": "novel",
+      "localID": "varcat.variant:7",
+      "localKey": "varcat.overall_assessment:4",
+      "oncogenicityClassification": {
+        "oncogenicityClassificationDescription": "Oncogenic",
+        "dateLastEvaluated": "2024-04-01",
+        "comment": "This variant is classified oncogenic in Diffuse Midline Glioma. The total score for this classification is 10 and the evidence supporting this classification are as follows. This specific variant Q61K has been documented as a hotspot in minimally 10 samples, and variation occurring within the same amino acid position has been identified in minimally 50 samples in the cancerhotspots.org database (ClinGen/CGC/VICC 2022: OS3). Functional studies support an oncogenic effect for this variant (ClinGen/CGC/VICC 2022: OS2). This variant has not been identified in control populations (or at an extremely low minor allele frequency) within gnomAD, a large-scale population database (ClinGen/CGC/VICC 2022: OP4). In silico algorithms suggest that this variant has an oncogenic effect on the gene product (ClinGen/CGC/VICC 2022: OP1)."
+      },
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "variantSet": {
+        "variant": [
+          {
+            "chromosomeCoordinates": {
+              "accession": "NC_000001.11",
+              "alternateAllele": "T",
+              "assembly": "GRCh38",
+              "chromosome": "1",
+              "referenceAllele": "G",
+              "start": 114713909,
+              "stop": 114713909
+            }
+          }
+        ]
+      },
+      "conditionSet": {
+        "condition": [
+          {
+            "name": "Diffuse Midline Glioma"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "varcat.variant:23",
+      "localKey": "varcat.overall_assessment:23",
+      "oncogenicityClassification": {
+        "oncogenicityClassificationDescription": "Uncertain significance",
+        "dateLastEvaluated": "2024-04-01",
+        "comment": "This variant is classified to have uncertain significance in Glioblastoma. The total score for this classification is 3 and the evidence supporting this classification are as follows. This variant is located within a critical and well-established functional domain of the protein structure, alteration of which may be predicted to have an effect on the protein's function (ClinGen/CGC/VICC 2022: OM1). This variant has not been identified in control populations (or at an extremely low minor allele frequency) within gnomAD, a large-scale population database (ClinGen/CGC/VICC 2022: OP4). In silico algorithms are conflicting and the oncogenic effect on the gene product is uncertain."
+      },
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "variantSet": {
+        "variant": [
+          {
+            "chromosomeCoordinates": {
+              "accession": "NC_000003.12",
+              "alternateAllele": "A",
+              "assembly": "GRCh38",
+              "chromosome": "3",
+              "referenceAllele": "G",
+              "start": 179209681,
+              "stop": 179209681
+            },
+            "gene": [
+              {
+                "id": 5290
+              }
+            ]
+          }
+        ]
+      },
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0018177"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "varcat.variant:718",
+      "localKey": "varcat.overall_assessment:58",
+      "oncogenicityClassification": {
+        "oncogenicityClassificationDescription": "Likely oncogenic",
+        "dateLastEvaluated": "2024-05-02",
+        "comment": "This variant is classified likely oncogenic in Neoplasm. The total score for this classification is 7 and the evidence supporting this classification are as follows. Functional studies support an oncogenic effect for this variant (ClinGen/CGC/VICC 2022: OS2). This variant is located within a critical and well-established functional domain of the protein structure, alteration of which may be predicted to have an effect on the protein's function (ClinGen/CGC/VICC 2022: OM1). This variant has not been identified in control populations (or at an extremely low minor allele frequency) within gnomAD, a large-scale population database (ClinGen/CGC/VICC 2022: OP4). In silico algorithms are conflicting and the oncogenic effect on the gene product is uncertain."
+      },
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "variantSet": {
+        "variant": [
+          {
+            "chromosomeCoordinates": {
+              "accession": "NC_000004.12",
+              "alternateAllele": "T",
+              "assembly": "GRCh38",
+              "chromosome": "4",
+              "referenceAllele": "A",
+              "start": 54270665,
+              "stop": 54270665
+            }
+          }
+        ]
+      },
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0005070"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "varcat.variant:724",
+      "localKey": "varcat.overall_assessment:61",
+      "oncogenicityClassification": {
+        "oncogenicityClassificationDescription": "Likely benign",
+        "dateLastEvaluated": "2024-05-02",
+        "comment": "This variant is classified likely benign in Ependymoma. The total score for this classification is -1 and the evidence supporting this classification are as follows. In silico algorithms suggest that this variant has no oncogenic impact on the gene product (ClinGen/CGC/VICC 2022: SBP1)."
+      },
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "variantSet": {
+        "variant": [
+          {
+            "chromosomeCoordinates": {
+              "accession": "NC_000023.11",
+              "alternateAllele": "T",
+              "assembly": "GRCh38",
+              "chromosome": "X",
+              "referenceAllele": "C",
+              "start": 51407326,
+              "stop": 51407326
+            },
+            "gene": [
+              {
+                "id": 695
+              }
+            ]
+          }
+        ]
+      },
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0016698"
+          }
+        ]
+      }
+    }
+  ]
+}

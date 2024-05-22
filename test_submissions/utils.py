@@ -48,11 +48,12 @@ if __name__ == "__main__":
 
     root_dir = Path(__file__).resolve().parents[0]
 
-    for json_f in root_dir.glob("*.json"):
-        with json_f.open() as rf:
-            sub_data = json.loads(rf.read())
-            response = dry_run_test_api(sub_data)
-            if response.status_code != 204:
-                print(f"{json_f} is invalid: {response.json()}")  # noqa: T201
-            else:
-                print(f"{json_f} is valid")  # noqa: T201
+    for source in {"civic", "varcat"}:
+        for json_f in Path(root_dir / source).glob("*.json"):
+            with json_f.open() as rf:
+                sub_data = json.loads(rf.read())
+                response = dry_run_test_api(sub_data)
+                if response.status_code != 204:
+                    print(f"{json_f} is invalid: {response.json()}")  # noqa: T201
+                else:
+                    print(f"{json_f} is valid")  # noqa: T201
