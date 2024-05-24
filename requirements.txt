@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+pre-commit
+ruff==0.2.0
+requests
+python-dotenv
+ipykernel
