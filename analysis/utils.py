@@ -10,36 +10,52 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TEST_URL = "https://submit.ncbi.nlm.nih.gov/apitest/v1/submissions"
+CLINVAR_PROD_API = "https://submit.ncbi.nlm.nih.gov/api/v1/submissions"
+CLINVAR_TEST_API = "https://submit.ncbi.nlm.nih.gov/apitest/v1/submissions"
 HEADERS = {"Content-type": "application/json", "SP-API-KEY": environ["CLINVAR_API_KEY"]}
 
 
-def dry_run_test_api(submission: list[dict]) -> requests.Response:
-    """Perform a dry run using ClinVar Submission Test API
+def _get_submission_url(use_prod: bool = False, dry_run: bool = True) -> str:
+    """Get ClinVar Submission API URL
+
+    :param use_prod: Whether or not to use the production API
+    :param dry_run: Whether or not to perform a dry run
+    :return: URL
+    """
+    url = CLINVAR_PROD_API if use_prod else CLINVAR_TEST_API
+    if dry_run:
+        url += "/?dry-run=true"
+    return url
+
+
+def submit(
+    submission: list[dict], use_prod: bool = False, dry_run: bool = True
+) -> requests.Response:
+    """Create submission via ClinVar Submission API
 
     :param submission: ClinVar submission
-    :return: Response from ClinVar Submission Test API
+    :param use_prod: Whether or not to use the production API
+    :param dry_run: Whether or not to perform a dry run
+    :return: Response from ClinVar Submission API
     """
     payload = {
         "actions": [
             {"type": "AddData", "targetDb": "clinvar", "data": {"content": submission}}
         ]
     }
-
-    return requests.post(
-        f"{TEST_URL}/?dry-run=true", headers=HEADERS, json=payload, timeout=5
-    )
+    url = _get_submission_url(use_prod, dry_run)
+    return requests.post(url, headers=HEADERS, json=payload, timeout=5)
 
 
-def test_api_sub_actions(submission_id: str) -> requests.Response:
+def get_sub_actions(submission_id: str, use_prod: bool = False) -> requests.Response:
     """Get submission status
 
     :param submission_id: Submission ID retrieved when the submission was created
-    :return: Response from ClinVar Submission Test API
+    :param use_prod: Whether or not to use the production API
+    :return: Response from ClinVar Submission API
     """
-    return requests.get(
-        f"{TEST_URL}/{submission_id}/actions/", headers=HEADERS, timeout=5
-    )
+    url = _get_submission_url(use_prod, dry_run=False)
+    return requests.get(f"{url}/{submission_id}/actions/", headers=HEADERS, timeout=5)
 
 
 if __name__ == "__main__":
@@ -52,7 +68,7 @@ if __name__ == "__main__":
         for json_f in Path(root_dir / source).glob("*.json"):
             with json_f.open() as rf:
                 sub_data = json.loads(rf.read())
-                response = dry_run_test_api(sub_data)
+                response = submit(sub_data, use_prod=False, dry_run=True)
                 if response.status_code != 204:
                     print(f"{json_f} is invalid: {response.json()}")  # noqa: T201
                 else:

@@ -54,6 +54,10 @@ assertions, these were manually created submissions from <https://civicdb.org>.
 * Drug DB identifiers
   * We can use our normalized label, but it would be nice to be able to use our
     normalized concept identifier to prevent ambiguity
+* CIViC URLs as citations
+  * We tried to add CIViC URLs but this raised an error when submitting: `is an invalid`
+  `citation. Please check both the name of the database and the identifier from that`
+  `database`
 
 ### What CIViC data we can put in ClinVar, but doesn't work with GKS
 

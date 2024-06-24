@@ -1,4 +1,8 @@
 {
+  "assertionCriteria": {
+    "db": "PubMed",
+    "id": "36063163"
+  },
   "oncogenicitySubmission": [
     {
       "recordStatus": "novel",

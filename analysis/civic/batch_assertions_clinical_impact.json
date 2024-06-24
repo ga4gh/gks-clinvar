@@ -1,4 +1,8 @@
 {
+  "assertionCriteria": {
+    "db": "PubMed",
+    "id": " 27993330"
+  },
   "clinicalImpactSubmission": [
     {
       "recordStatus": "novel",
@@ -68,30 +72,6 @@
           {
             "db": "PubMed",
             "id": "24868098"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/229"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/885"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/4290"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/3811"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/4265"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/4285"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/4291"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/2994"
           }
         ]
       }
@@ -156,24 +136,6 @@
           {
             "db": "PubMed",
             "id": "23816960"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/879"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/883"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/968"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/82"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/2629"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/2997"
           }
         ]
       }
@@ -230,18 +192,6 @@
           {
             "db": "PubMed",
             "id": "25399551"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/6178"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/6938"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/3758"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/6940"
           }
         ]
       }
@@ -290,12 +240,6 @@
           {
             "db": "PubMed",
             "id": "24705254"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/4846"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/6955"
           }
         ]
       }
@@ -360,24 +304,6 @@
           {
             "db": "PubMed",
             "id": "27404270"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/103"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/7156"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/7157"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/7158"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/7159"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/1552"
           }
         ]
       }

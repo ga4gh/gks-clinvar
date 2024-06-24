@@ -1,4 +1,8 @@
 {
+  "assertionCriteria": {
+    "db": "PubMed",
+    "id": "36063163"
+  },
   "oncogenicitySubmission": [
     {
       "recordStatus": "novel",
@@ -40,33 +44,6 @@
           {
             "db": "PubMed",
             "id": "19749790"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/7306"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/4871"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/8853"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/10386"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/7941"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/8642"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/8811"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/8854"
-          },
-          {
-            "url": "https://civicdb.org/links/evidence/8855"
           }
         ]
       },
