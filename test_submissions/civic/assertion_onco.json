@@ -1,0 +1,101 @@
+{
+  "oncogenicitySubmission": [
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:624",
+      "localKey": "civic.AID:55",
+      "oncogenicityClassification": {
+        "oncogenicityClassificationDescription": "Oncogenic",
+        "dateLastEvaluated": "2024-02-16",
+        "comment": "FGFR3 S249C drug sensitivity studies show clinical and in vitro sensitivity to erdafitnib (civic.EID:7306). Functional and oncogenic studies indicate ligand-independent dimerization, autophosphorylation, substrate phosphorylation, MAPK activation, proliferation, tumor growth in nude mice, anchorage-independent growth, and morphological transformation, supporting ClinGen/CGC/VICC oncogenicity criteria OS2 (civic.EID:10386, civic.EID:8855). In cancerhotspots.org, all 114 FGFR3 samples with a mutation at position 249 had the same amino acid change from S to C supporting criteria OS3. FGFR3 S249C was absent in gnomAD (v2.1.1) supporting criteria OP4, and many in silico algorithms predict S249C to have damaging effects supporting criteria OP1. These criteria in total result in an oncogenicity score of 10 points, which categorizes FGFR3 S249C as an oncogenic variant.",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "27998968"
+          },
+          {
+            "db": "PubMed",
+            "id": "16338952"
+          },
+          {
+            "db": "PubMed",
+            "id": "19381019"
+          },
+          {
+            "db": "PubMed",
+            "id": "23786770"
+          },
+          {
+            "db": "PubMed",
+            "id": "31316618"
+          },
+          {
+            "db": "PubMed",
+            "id": "17384684"
+          },
+          {
+            "db": "PubMed",
+            "id": "25606676"
+          },
+          {
+            "db": "PubMed",
+            "id": "19749790"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/7306"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/4871"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/8853"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/10386"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/7941"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/8642"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/8811"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/8854"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/8855"
+          }
+        ]
+      },
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "NM_000142.5:c.746C>G",
+            "gene": [
+              {
+                "symbol": "FGFR3"
+              }
+            ]
+          }
+        ]
+      },
+      "conditionSet": {
+        "condition": [
+          {
+            "name": "Cancer"
+          }
+        ]
+      }
+    }
+  ]
+}

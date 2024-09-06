@@ -1,0 +1,47 @@
+{
+  "clinicalImpactSubmission": [
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:198",
+      "localKey": "civic.eid:6034",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0021657"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "ENST00000648323.1:c.402C>G",
+            "gene": [
+              {
+                "id": 668
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "diagnostic: supports diagnosis",
+        "comment": "FOXL2 mutations were found in 94% of pathologically confirmed A-GCTs (95/101), in one of eight juvenile granulosa cell tumours (J-GCTs), and in two of 19 SLCTs. ",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "26033501"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "clinicalImpactSubmission": [
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:33",
+      "localKey": "civic.AID:5",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "name": "Non-small cell lung carcinoma"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "NM_005228.4:c.2573T>G",
+            "gene": [
+              {
+                "symbol": "EGFR"
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "Erlotinib",
+        "dateLastEvaluated": "2018-02-23",
+        "comment": "L858R is among the most common sensitizing EGFR mutations in NSCLC, and is assessed via DNA mutational analysis including Sanger sequencing and next generation sequencing methods. Tyrosine kinase inhibitor erlotinib is associated with improved progression free survival over chemotherapy in EGFR L858R patients (civic.EID:885).",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "24736073"
+          },
+          {
+            "db": "PubMed",
+            "id": "22285168"
+          },
+          {
+            "db": "PubMed",
+            "id": "27032107"
+          },
+          {
+            "db": "PubMed",
+            "id": "19147750"
+          },
+          {
+            "db": "PubMed",
+            "id": "17877814"
+          },
+          {
+            "db": "PubMed",
+            "id": "21132006"
+          },
+          {
+            "db": "PubMed",
+            "id": "27102076"
+          },
+          {
+            "db": "PubMed",
+            "id": "24868098"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/229"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/885"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/4290"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/3811"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/4265"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/4285"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/4291"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/2994"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:33",
+      "localKey": "civic.AID:6",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "name": "Non-small cell lung carcinoma"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "NM_005228.4:c.2573T>G",
+            "gene": [
+              {
+                "symbol": "EGFR"
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "Afatinib",
+        "dateLastEvaluated": "2018-02-22",
+        "comment": "L858R is among the most common sensitizing EGFR mutations in NSCLC, and is assessed via DNA mutational analysis, including Sanger sequencing and next generation sequencing methods. Tyrosine kinase inhibitor afatinib is FDA approved as a first line systemic therapy in NSCLC with sensitizing EGFR mutation (civic.EID:2997).",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "23982599"
+          },
+          {
+            "db": "PubMed",
+            "id": "18408761"
+          },
+          {
+            "db": "PubMed",
+            "id": "24439929"
+          },
+          {
+            "db": "PubMed",
+            "id": "26515464"
+          },
+          {
+            "db": "PubMed",
+            "id": "22452895"
+          },
+          {
+            "db": "PubMed",
+            "id": "23816960"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/879"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/883"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/968"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/82"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/2629"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/2997"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:12",
+      "localKey": "civic.AID:7",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "name": "Melanoma"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "NM_004333.4:c.1799T>A",
+            "gene": [
+              {
+                "symbol": "BRAF"
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "Dabrafenib;Trametinib",
+        "dateLastEvaluated": "2018-05-15",
+        "comment": "Combination treatment of BRAF inhibitor dabrafenib and MEK inhibitor trametinib is recommended for adjuvant treatment of stage III or recurrent melanoma with BRAF V600E mutation detected by the approved THxID kit, as well as first line treatment for metastatic melanoma. The treatments are FDA approved based on studies including the Phase III COMBI-V, COMBI-D and COMBI-AD Trials. Combination therapy is now recommended above BRAF inhibitor monotherapy. Cutaneous squamous-cell carcinoma and keratoacanthoma occur at lower rates with combination therapy than with BRAF inhibitor alone.",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "25265492"
+          },
+          {
+            "db": "PubMed",
+            "id": "23020132"
+          },
+          {
+            "db": "PubMed",
+            "id": "28891408"
+          },
+          {
+            "db": "PubMed",
+            "id": "25399551"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/6178"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/6938"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/3758"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/6940"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:1594",
+      "localKey": "civic.AID:9",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "name": "Diffuse Midline Glioma, H3 K27M-mutant"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "NM_001105.4:c.983G>T",
+            "gene": [
+              {
+                "symbol": "ACVR1"
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier II - Potential",
+        "assertionTypeForClinicalImpact": "diagnostic: supports diagnosis",
+        "drugForTherapeuticAssertion": "",
+        "dateLastEvaluated": "2018-10-16",
+        "comment": "Supports diagnosis of diffuse intrinsic pontine glioma. ACVR1 G328V mutations occur within the kinase domain, leading to activation of downstream signaling. Exclusively seen in high-grade pediatric gliomas, supporting diagnosis of diffuse intrinsic pontine glioma.",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "24705250"
+          },
+          {
+            "db": "PubMed",
+            "id": "24705254"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/4846"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/6955"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:12",
+      "localKey": "civic.AID:20",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "name": "Colorectal cancer"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "NM_004333.4:c.1799T>A",
+            "gene": [
+              {
+                "symbol": "BRAF"
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "prognostic: poor outcome",
+        "drugForTherapeuticAssertion": "",
+        "dateLastEvaluated": "2019-02-28",
+        "comment": "",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "24112392"
+          },
+          {
+            "db": "PubMed",
+            "id": "21641636"
+          },
+          {
+            "db": "PubMed",
+            "id": "21502544"
+          },
+          {
+            "db": "PubMed",
+            "id": "20008640"
+          },
+          {
+            "db": "PubMed",
+            "id": "24594804"
+          },
+          {
+            "db": "PubMed",
+            "id": "27404270"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/103"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/7156"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/7157"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/7158"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/7159"
+          },
+          {
+            "url": "https://civicdb.org/links/evidence/1552"
+          }
+        ]
+      }
+    }
+  ]
+}

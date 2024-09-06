@@ -1,0 +1,14 @@
+{
+  "clinvarDeletion": {
+    "accessionSet": [
+      {
+        "accession": "SCV000123456",
+        "reason": "Dummy SCV to test API"
+      },
+      {
+        "accession": "SCV000654321",
+        "reason": "Dummy SCV to test API"
+      }
+    ]
+  }
+}

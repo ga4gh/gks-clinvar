@@ -1,0 +1,224 @@
+{
+  "clinicalImpactSubmission": [
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:12",
+      "localKey": "civic.eid:1409",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0005012"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "ENST00000288602.6:c.1799T>A",
+            "gene": [
+              {
+                "id": 673
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier II - Potential",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "vemurafenib",
+        "comment": "Phase 3 randomized clinical trial comparing vemurafenib with dacarbazine in 675 patients with previously untreated, metastatic melanoma with the BRAF V600E mutation. At 6 months, overall survival was 84% (95% confidence interval [CI], 78 to 89) in the vemurafenib group and 64% (95% CI, 56 to 73) in the dacarbazine group. A relative reduction of 63% in the risk of death and of 74% in the risk of either death or disease progression was observed with vemurafenib as compared with dacarbazine (P<0.001 for both comparisons).",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "21639808"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:12",
+      "localKey": "civic.eid:1398",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0005105"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "ENST00000288602.6:c.1799T>A",
+            "gene": [
+              {
+                "id": 673
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "vemurafenib",
+        "comment": "The BRIM-3 Phase III trial NCT01006980 assessed BRAF inhibitor vemurafenib versus dacarbazine in 598 patients with treatment naive metastatic melanoma and confirmed V600E mutation. Significant differences were seen in overall survival (13.3 months with vemurafenib vs. 10.0 months with dacarbazine) and median progression free survival (6.9 months  with vemurafenib vs. 1.6 months with dacarbazine)",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "24508103"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:12",
+      "localKey": "civic.eid:3017",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0005233"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "ENST00000288602.6:c.1799T>A",
+            "gene": [
+              {
+                "id": 673
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier II - Potential",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "dabrafenib;trametinib dimethyl sulfoxide",
+        "comment": "Patients with BRAF V600E-mutant NSCLC (n=57) were enrolled into a phase 2, multicentre, non-randomised, open-label study, administering dabrafenib plus trametinib. The overall response rate was 36/57 (63.2%, [95% CI 49.3-75.6]) and the median progression-free survival was 9.7 months (95% CI 6.9-19.6). At data cutoff (11.6 months of follow-up), 18/36  (50%) confirmed responses were ongoing and 23/57 (40%) of patients had died.",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "27283860"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:12",
+      "localKey": "civic.eid:95",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0005105"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "ENST00000288602.6:c.1799T>A",
+            "gene": [
+              {
+                "id": 673
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "dabrafenib;trametinib dimethyl sulfoxide",
+        "comment": "Dabrafenib with trametinib provides higher response rate and lower toxicity (as compared to chemotherapy) in patients with melanoma.",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "24583796"
+          }
+        ]
+      }
+    },
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:12",
+      "localKey": "civic.eid:6178",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0005105"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "hgvs": "ENST00000288602.6:c.1799T>A",
+            "gene": [
+              {
+                "id": 673
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "therapeutic: sensitivity/response",
+        "drugForTherapeuticAssertion": "dabrafenib;trametinib dimethyl sulfoxide",
+        "comment": "Adjuvant dual treatment with BRAF inhibitor dabrafenib and MEK inhibitor trametinib was administered to patients with stage III resected melenoma with V600E or V600K mutation in this stage III trial (COMBO-AD, NCT01682083). 792 (91%) patients had V600E, and were administered dabrafenib and trametinib or placebo for 12 months. In subsequent analysis, relapse or death occurred in 150/397 patients (38%) in the treatment group and 229/395 patients (58%) in the placebo group for a 95% CI Hazard Ratio of 0.48 (0.39-0.58).",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "28891408"
+          }
+        ]
+      }
+    }
+  ]
+}

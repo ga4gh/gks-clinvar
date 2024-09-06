@@ -1,0 +1,54 @@
+{
+  "clinicalImpactSubmission": [
+    {
+      "recordStatus": "novel",
+      "localID": "civic.mpid:244",
+      "localKey": "civic.eid:655",
+      "observedIn": [
+        {
+          "alleleOrigin": "somatic",
+          "affectedStatus": "yes",
+          "collectionMethod": "curation"
+        }
+      ],
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "MONDO",
+            "id": "0005075"
+          }
+        ]
+      },
+      "variantSet": {
+        "variant": [
+          {
+            "chromosomeCoordinates": {
+              "assembly": "GRCh37",
+              "chromosome": "5",
+              "start": 1295228,
+              "stop": 1295228,
+              "referenceAllele": "G",
+              "alternateAllele": "A"
+            },
+            "gene": [
+              {
+                "id": 7015
+              }
+            ]
+          }
+        ]
+      },
+      "clinicalImpactClassification": {
+        "clinicalImpactClassificationDescription": "Tier I - Strong",
+        "assertionTypeForClinicalImpact": "prognostic: poor outcome",
+        "comment": "In patients with papillary thyroid cancer harboring both BRAF V600E and the TERT promotor mutation C228T, recurrence-free survival is worse than in patients harboring one of these mutations or no mutations in either gene.",
+        "citation": [
+          {
+            "db": "PubMed",
+            "id": "25024077"
+          }
+        ]
+      }
+    }
+  ]
+}
